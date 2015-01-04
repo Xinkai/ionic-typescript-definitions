@@ -1,4 +1,4 @@
-﻿
+
 /**
  * Define a global ionic object
  */
@@ -207,7 +207,7 @@ declare module Ionic
          * Set the grade of the device: 'a', 'b', or 'c'. 'a' is the best (most css features enabled),
          * 'c' is the worst. By default, sets the grade depending on the current device.
          */
-        setGrade(grade): void;
+        setGrade(grade: string): void;
 
         /**
          * Return the current device (given by Cordova).

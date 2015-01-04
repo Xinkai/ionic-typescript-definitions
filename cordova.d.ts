@@ -1,4 +1,4 @@
-﻿/// <reference path="ionic.d.ts" />
+/// <reference path="ionic.d.ts" />
 
 interface Cordova
 {
@@ -31,7 +31,7 @@ declare module Ionic
          *
          * @param disbale
          */
-        disableScroll(disbale: boolean): void;
+        disableScroll(disable: boolean): void;
 
         /**
          * Whether or not the keyboard is currently visible.
